@@ -21,4 +21,8 @@
       gem 'rails_12factor', '0.0.2'
     end
 
+<<<<<<< HEAD
        gem 'bootstrap-sass',       '3.2.0.0'
+=======
+        gem 'bootstrap-sass',       '3.2.0.0'
+>>>>>>> filling-in-layout
