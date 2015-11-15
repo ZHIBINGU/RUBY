@@ -13,8 +13,9 @@
         @user = User.new(secure_params)
         if @user.save
            # Handle a successful save.
-           flash[:success] = "Welcome to the Twitter App!"    # NEW LINE
-           redirect_to @user   # NEW LINE
+           remember @user       #  NEW LINE
+      flash[:success] = "Welcome to the Sample App!"    # NEW LINE
+      redirect_to @user
         else
             # Handle an unsuccessful save.   
             render 'new'     # NEW LINE   
